@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AddEvent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        android:background="@drawable/cardviewbackground">
+
+        <EditText
+            android:id="@+id/editTextEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint="Enter Event Name"
+            android:layout_margin="15dp"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint="Enter Brief Description of Event"
+            android:layout_margin="15dp"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/editTexttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint="Enter Event date and time"
+            android:layout_margin="15dp"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/editTexttargetaudience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint="Enter target audience of the event"
+            android:layout_margin="15dp"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/editTextpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:hint="Enter password"
+            android:layout_margin="15dp"
+            android:inputType="textPersonName" />
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Add the Event"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
